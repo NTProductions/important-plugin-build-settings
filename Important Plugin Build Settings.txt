@@ -1,0 +1,16 @@
+Important Plugin Build Settings
+
+Windows-
+-Build Directory: $(AE_PLUGIN_BUILD_DIR)\
+-Debugging Command: <Path to application>
+-C/C++ General: Treat Warnings As Errors NO
+-C/C++ Code Generation Struct Member Alignment: Default
+-Input Additional Dependencies: <Path to other libs>
+
+
+Mac- 
+-Packaging Wrapper Extension: Plugin (both project and targets)
+-Targets General Settings
+-Targets Info Settings
+-Signing (if applicable)
+-Build vs Archive
